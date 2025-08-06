@@ -1,5 +1,6 @@
-body {
+* {
   margin: 0;
+  box-sizing: border-box;
   font-family: poppins, sans-serif;
 }
 .container {
@@ -133,6 +134,88 @@ body {
   color: #2b2b2b;
   margin: 10px 0;
   font-weight: 500;
+}
+
+.trending {
+  font-size: 20px;
+  color: #2b2b2b;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0%;
+}
+.card2 {
+  display: grid;
+  grid-template-areas: "a a b" "c d e";
+  gap: 20px;
+}
+
+.card2 > div {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 1rem;
+  color: white;
+  overflow: hidden;
+  position: relative;
+  align-items:start;
+  isolation: isolate;
+  transition: all .3s linear;
+}
+.card2 > div > div{
+  transform: translateY(100%);
+  transition: all .3s linear;
+}
+.card2 > div:hover div{
+  transform: translateY(0);
+}
+.card2 > div::after{
+  content: "CREATIVE";
+  background: rgba(43, 43, 43, 0.486);
+  position: absolute;
+  z-index: -90;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 100%;
+  transition: all .3s linear;
+  text-align: end;
+  margin: 10px;
+}
+.card2 > div:hover::after{
+  bottom: 0;
+}
+.card2 > div p {
+  color: #fff8f8b9;
+}
+
+.card-items1 {
+  background-image: url('mirro.jpg');
+  background-size: cover;
+  grid-area:a;
+  
+}
+.card-items2 {
+  background-image: url('base.jpg');
+  background-size: cover;
+  grid-area:b;
+
+
+}
+.card-items3 {
+  background-image: url('stairs.jpg');
+  background-size: cover;
+  grid-area:c;
+}
+.card-items4 {
+  background-image: url('chair.jpg');
+  background-size: cover;
+  grid-area:d;
+}
+.card-items5 {
+  background-image: url('mintable.jpg');
+  background-size: cover;
+  grid-area:e;
 }
 @media  screen and (max-width: 768px) {
   
