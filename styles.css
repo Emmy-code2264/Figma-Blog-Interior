@@ -374,11 +374,13 @@ footer {
   display: flex;
   gap: max(60%);
   align-items: center;
+  justify-content: space-between;
   margin-top: 20px;
 }
 .footer-bottom p {
   padding-top: 10px;
   font-size: 12px;
+  padding-left: 5px;
 }
 @media screen and (max-width: 980px) {
   .card2 {
