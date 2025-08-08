@@ -152,6 +152,87 @@
   object-fit: cover;
   border-radius: 3px;
 }
+.span1 {
+  position: absolute;
+  top: 10px;
+  right: 9px;
+  background-color: #ffffff37;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 6px;
+}
+.span2 {
+  position: absolute;
+  top: 10px;
+  right: 9px;
+  background-color: #ffffff37;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 6px;
+}
+.span3 {
+  position: absolute;
+  top: 10px;
+  right: 9px;
+  background-color: #ffffff37;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 6px;
+}
+.span4 {
+  position: absolute;
+  top: 10px;
+  right: 9px;
+  background-color: #ffffff37;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 6px;
+}
+.span5 {
+  position: absolute;
+  top: 10px;
+  right: 9px;
+  background-color: #ffffff37;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 6px;
+}
+.span6 {
+  position: absolute;
+  top: 10px;
+  right: 9px;
+  background-color: #ffffff37;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 6px;
+}
+.span7 {
+  position: absolute;
+  top: 10px;
+  right: 9px;
+  background-color: #ffffff37;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 6px;
+}
+.span8 {
+  position: absolute;
+  top: 10px;
+  right: 9px;
+  background-color: #ffffff37;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 6px;
+}
+.span9 {
+  position: absolute;
+  top: 10px;
+  right: 9px;
+  background-color: #ffffff37;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 6px;
+}
 .card-items p {
   font-size: 14px;
   color: #333;
